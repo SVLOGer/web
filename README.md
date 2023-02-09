@@ -1,2 +1,2 @@
 # web
-Ivanov Maksim PS-12
+Ivanov Maksim Andreevich PS-12
