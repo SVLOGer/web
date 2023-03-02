@@ -1,4 +1,5 @@
-.header__background {
+.header__background 
+{
     z-index: 2;
     background: black url("Pictures/Header.jpg");
     background-size: 100%;
@@ -8,7 +9,8 @@
     width: 100%;
 }
 
-.header__text1 {
+.header__text1 
+{
     margin-top: 10%;
     color: #FFFFFF;
     font-style: normal;
@@ -19,7 +21,8 @@
     letter-spacing: 2px;
 }
 
-.header__text2 {
+.header__text2 
+{
     font-family: 'Oxygen';
     font-style: normal;
     margin-top: -2%;
@@ -30,7 +33,8 @@
     text-align: center;
 }
 
-.menu__text {
+.menu__text 
+{
     font-family: 'Lora';
     padding-top: 1%;
     margin: 0% 10% 0%;
@@ -41,23 +45,27 @@
     color: #FFFFFF;
 }
 
-.menu__link {
+.menu__link 
+{
     z-index: 1;
     margin-top: -1.5%;
     padding-left: 60%;
     word-spacing: 40px;
 }
 
-.menu__link a {
+.menu__link a 
+{
     text-decoration: none;
     color: white;
 }
 
-.menu__link a:hover {
+.menu__link a:hover 
+{
     color: #DD783F;
 }
 
-.menu__button {
+.menu__button 
+{
     z-index: 1;
     height: 44px;
     font-weight: 167px;
@@ -75,12 +83,14 @@
     text-align: center;
 }
 
-.menu__button a{
+.menu__button a
+{
     text-decoration: none;
     color: white;
 }
 
-.body__link {
+.body__link 
+{
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -94,7 +104,8 @@
     background: white;
 }
 
-.body__link a {
+.body__link a 
+{
     text-decoration: none;
     color: #768088;
 }
@@ -103,7 +114,8 @@
     color: #DD783F;
 }
 
-.block__name {
+.block__name 
+{
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -118,26 +130,30 @@
     background: #F7F7F7;
 }
 
-.body__background {
+.body__background 
+{
     width: 1440px;
     background: #F7F7F7;
 }
 
-.block__element1 {
+.block__element1 
+{
     background: url("Pictures/The_Road_Ahead.png");
     background-repeat: no-repeat;
     height: 280px;
     width: 460px;
 }
 
-.block__element2 {
+.block__element2 
+{
     background: url("Pictures/From_Top_Down.png");
     background-repeat: no-repeat;
     height: 280px;
     width: 460px;
 }
 
-.block__element_p1 {
+.block__element_p1 
+{
     padding-top: 157px;
     font-family: 'Lora';
     font-style: normal;
@@ -149,7 +165,8 @@
     padding-bottom: 0px;
 }
 
-.block__element_p2 {
+.block__element_p2 
+{
     font-family: 'Oxygen';
     font-style: normal;
     font-size: 14px;
@@ -159,11 +176,13 @@
     padding-left: 4.35%;
 }
 
-.block__element_img {
+.block__element_img 
+{
     padding-left: 4.35%;
 }
 
-.block__element_special {
+.block__element_special 
+{
     position: absolute;
     background: #DD783F;
     border-radius: 2px;
@@ -175,26 +194,30 @@
     text-align: center;
 }
 
-.block__element_name {
+.block__element_name 
+{
     font-family: 'Oxygen';
     font-style: normal;
     color: white;
     opacity: 0.7;
 }
 
-.block__element_date {
+.block__element_date
+{
     font-family: 'Oxygen';
     font-style: normal;
     color: white;
     opacity: 0.7;
 }
 
-.block2__element {
+.block2__element 
+{
     background: white;
     width: 296px;
 }
 
-.block2__element_name {
+.block2__element_name 
+{
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -202,7 +225,8 @@
     line-height: 1.31;
 }
 
-.block2__element_p1 {
+.block2__element_p1 
+{
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -211,7 +235,8 @@
     color: #7A7A7A;
 }
 
-.block2__element_person {
+.block2__element_person 
+{
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -220,7 +245,8 @@
     color: #999999;
 }
 
-.block2__element_date {
+.block2__element_date
+{
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -229,7 +255,8 @@
     color: #999999;
 }
 
-footer {
+footer 
+{
     background: url("Pictures/Footer.png");
     max-width: 1440px;
     width: 100%;
@@ -237,16 +264,19 @@ footer {
     background-repeat: no-repeat;
 }
 
-footer nav {
+footer nav 
+{
     word-spacing: 20px;
 }
 
-footer a {
+footer a 
+{
     opacity: 0.6;
     text-decoration: none;
     color: white;
 }
 
-footer a:hover {
+footer a:hover 
+{
     color: #DD783F;
 }

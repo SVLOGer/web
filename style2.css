@@ -1,4 +1,5 @@
-.menu__text {
+.menu__text
+{
     font-family: 'Lora';
     padding-top: 1%;
     margin: 0% 10% 0%;
@@ -9,22 +10,26 @@
     color: #2E2E2E;
 }
 
-.menu__link {
+.menu__link
+{
     margin-top: -1.5%;
     padding-left: 60%;
     word-spacing: 40px;
 }
 
-.menu__link a {
+.menu__link a
+{
     text-decoration: none;
     color: #2E2E2E;
 }
 
-.menu__link a:hover {
+.menu__link a:hover
+{
     color: #DD783F;
 }
 
-.head__name {
+.head__name
+{
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
@@ -35,7 +40,8 @@
     color: #2E2E2E;
 }
 
-.head__comment {
+.head__comment
+{
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -46,7 +52,8 @@
     opacity: 0.63;
 }
 
-.body__text {
+.body__text
+{
     padding-left: 16.6%;
     padding-right: 16.6%;
     width: 960px;
@@ -58,7 +65,8 @@
     line-height: 1.45;
 }
 
-footer {
+footer
+{
     background: url("Pictures/Footer.png");
     max-width: 1440px;
     width: 100%;
@@ -66,7 +74,8 @@ footer {
     background-repeat: no-repeat;
 }
 
-footer p {
+footer p
+{
     font-family: 'Lora';
     padding-top: 1%;
     margin: 0% 10% 0%;
@@ -77,16 +86,19 @@ footer p {
     color: #FFFFFF;
 }
 
-footer nav {
+footer nav
+{
     word-spacing: 20px;
 }
 
-footer a {
+footer a
+{
     opacity: 0.6;
     text-decoration: none;
     color: white;
 }
 
-footer a:hover {
+footer a:hover
+{
     color: #DD783F;
 }
