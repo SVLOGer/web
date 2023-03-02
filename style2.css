@@ -1,0 +1,92 @@
+.menu__text {
+    font-family: 'Lora';
+    padding-top: 1%;
+    margin: 0% 10% 0%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+    color: #2E2E2E;
+}
+
+.menu__link {
+    margin-top: -1.5%;
+    padding-left: 60%;
+    word-spacing: 40px;
+}
+
+.menu__link a {
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+.menu__link a:hover {
+    color: #DD783F;
+}
+
+.head__name {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.02;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.head__comment {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #2E2E2E;
+    opacity: 0.63;
+}
+
+.body__text {
+    padding-left: 16.6%;
+    padding-right: 16.6%;
+    width: 960px;
+    text-align: left;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.45;
+}
+
+footer {
+    background: url("Pictures/Footer.png");
+    max-width: 1440px;
+    width: 100%;
+    height: 89px;
+    background-repeat: no-repeat;
+}
+
+footer p {
+    font-family: 'Lora';
+    padding-top: 1%;
+    margin: 0% 10% 0%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+footer nav {
+    word-spacing: 20px;
+}
+
+footer a {
+    opacity: 0.6;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #DD783F;
+}
