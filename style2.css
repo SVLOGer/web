@@ -17,13 +17,13 @@
     word-spacing: 40px;
 }
 
-.menu__link a
+.menu__link_a
 {
     text-decoration: none;
     color: #2E2E2E;
 }
 
-.menu__link a:hover
+.menu__link_a:hover
 {
     color: #DD783F;
 }
@@ -65,7 +65,7 @@
     line-height: 1.45;
 }
 
-footer
+.footer__background
 {
     background: url("Pictures/Footer.png");
     max-width: 1440px;
@@ -74,7 +74,7 @@ footer
     background-repeat: no-repeat;
 }
 
-footer p
+.footer_text
 {
     font-family: 'Lora';
     padding-top: 1%;
@@ -86,19 +86,19 @@ footer p
     color: #FFFFFF;
 }
 
-footer nav
+.footer__nav
 {
     word-spacing: 20px;
 }
 
-footer a
+.footer__a
 {
     opacity: 0.6;
     text-decoration: none;
     color: white;
 }
 
-footer a:hover
+.footer__a:hover
 {
     color: #DD783F;
 }
