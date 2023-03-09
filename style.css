@@ -11,7 +11,7 @@
     color: #FFFFFF;
 }
 
-.header__nav 
+.header__menu 
 {
     z-index: 1;
     position: absolute;
@@ -19,13 +19,13 @@
     word-spacing: 40px;
 }
 
-.header__nav_a 
+.header__menu_link 
 {
     text-decoration: none;
     color: white;
 }
 
-.header__nav_a:hover 
+.header__menu_link:hover 
 {
     color: #DD783F;
 }

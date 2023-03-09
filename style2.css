@@ -1,4 +1,4 @@
-.menu__text
+.header__Escape
 {
     font-family: 'Lora';
     padding-top: 1%;
@@ -10,25 +10,25 @@
     color: #2E2E2E;
 }
 
-.menu__link
+.header__menu
 {
     margin-top: -1.5%;
     padding-left: 60%;
     word-spacing: 40px;
 }
 
-.menu__link_a
+.header__menu_link
 {
     text-decoration: none;
     color: #2E2E2E;
 }
 
-.menu__link_a:hover
+.header__menu_link:hover
 {
     color: #DD783F;
 }
 
-.head__name
+.first-screen__tittle
 {
     font-family: 'Lora';
     font-style: normal;
@@ -40,7 +40,7 @@
     color: #2E2E2E;
 }
 
-.head__comment
+.first-screen__subtittle
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -52,7 +52,7 @@
     opacity: 0.63;
 }
 
-.body__text
+.body__paragraph
 {
     padding-left: 16.6%;
     padding-right: 16.6%;
@@ -74,7 +74,7 @@
     background-repeat: no-repeat;
 }
 
-.footer_text
+.footer__Escape
 {
     font-family: 'Lora';
     padding-top: 1%;
@@ -86,19 +86,19 @@
     color: #FFFFFF;
 }
 
-.footer__nav
+.footer__menu
 {
     word-spacing: 20px;
 }
 
-.footer__a
+.footer__menu_link
 {
     opacity: 0.6;
     text-decoration: none;
     color: white;
 }
 
-.footer__a:hover
+.footer__menu_link:hover
 {
     color: #DD783F;
 }
