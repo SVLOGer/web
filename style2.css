@@ -38,7 +38,7 @@
 
 }
 
-.logo__tittle
+.logo__title
 {
     font-family: 'Lora';
     font-style: normal;
@@ -50,7 +50,7 @@
     color: #2E2E2E;
 }
 
-.logo__subtittle
+.logo__subtitle
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -62,17 +62,17 @@
     opacity: 0.63;
 }
 
-.logo-img
+.post-img
 {
     
 }
 
-.paragraphs
+.post
 {
 
 }
 
-.paragraphs__paragraph
+.post__paragraph
 {
     padding-left: 16.6%;
     padding-right: 16.6%;
