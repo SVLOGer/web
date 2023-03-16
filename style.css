@@ -1,4 +1,9 @@
-.header__Escape 
+.heading
+{
+
+}
+
+.heading__escape 
 {
     position: absolute;
     font-family: 'Lora';
@@ -11,26 +16,25 @@
     color: #FFFFFF;
 }
 
-.header__menu 
+.heading-menu 
 {
-    z-index: 1;
     position: absolute;
     padding-left: 60%;
     word-spacing: 40px;
 }
 
-.header__menu_link 
+.heading-menu__link 
 {
     text-decoration: none;
     color: white;
 }
 
-.header__menu_link:hover 
+.heading-menu__link:hover 
 {
     color: #DD783F;
 }
 
-.first-screen__background 
+.logo 
 {
     background: black url("Pictures/Header.jpg") no-repeat;
     background-size: 100%;
@@ -39,7 +43,7 @@
     width: 100%;
 }
 
-.first-screen__tittle 
+.logo__tittle 
 {
     color: #FFFFFF;
     font-style: normal;
@@ -50,7 +54,7 @@
     letter-spacing: 2px;
 }
 
-.first-screen__subtittle 
+.logo__subtittle 
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -63,9 +67,8 @@
     box-sizing: border-box;
 }
 
-.first-screen__button 
+.logo__button 
 {
-    z-index: 1;
     height: 44px;
     font-weight: 167px;
     color: white;
@@ -82,7 +85,7 @@
     text-align: center;
 }
 
-.menu__links 
+.menu
 {
     font-family: 'Lora';
     font-style: normal;
@@ -97,24 +100,29 @@
     background: white;
 }
 
-.menu__links_link 
+.menu__link 
 {
     text-decoration: none;
     color: #768088;
 }
 
-.menu__links_link:hover {
+.menu__link:hover {
     color: #DD783F;
 }
 
-.body__background 
+.фон у постов 
 {
     max-width: 1920px;
     width: 100%;
     background: #F7F7F7;
 }
 
-.block__name 
+.featured-posts
+{
+    
+}
+
+.featured-posts__heading 
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -131,7 +139,7 @@
 }
 
 
-.The-Road-Ahead__background
+.the-road-ahead__background
 {
     background: url("Pictures/The_Road_Ahead.png");
     background-repeat: no-repeat;
@@ -139,7 +147,7 @@
     width: 460px;
 }
 
-.From-Top-Down__background 
+.from-top-down__background 
 {
     background: url("Pictures/From_Top_Down.png");
     background-repeat: no-repeat;
@@ -147,7 +155,7 @@
     width: 460px;
 }
 
-.Featured-Posts__block-tittle 
+.featured-posts__tittle 
 {
     padding-top: 157px;
     font-family: 'Lora';
@@ -160,7 +168,7 @@
     padding-bottom: 0px;
 }
 
-.Featured-Posts__block-subtittle 
+.featured-posts__subtittle 
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -171,12 +179,17 @@
     padding-left: 4.35%;
 }
 
-.Featured-Posts__block-img 
+.featured-posts-info
+{
+
+}
+
+.featured-posts-info__author-img 
 {
     padding-left: 4.35%;
 }
 
-.Featured-Posts__block-special 
+.from-top-down__adventure 
 {
     position: absolute;
     background: #DD783F;
@@ -189,7 +202,7 @@
     text-align: center;
 }
 
-.Featured-Posts__block-name-of-person  
+.featured-posts-name__author-name  
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -197,7 +210,7 @@
     opacity: 0.7;
 }
 
-.Featured-Posts__block-date
+.featured-posts__author-date
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -205,13 +218,33 @@
     opacity: 0.7;
 }
 
-.Most-Recent__block-background 
+.most-recent
 {
-    background: white;
-    width: 296px;
+
 }
 
-.Most-Recent__block-tittle 
+.most-recent__heading 
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.35;
+    letter-spacing: 2px;
+    width: 1440px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #DEDEDE;
+    text-underline-offset: 16px;
+    background: #F7F7F7;
+}
+
+.most-recent__img
+{
+
+}
+
+.most-recent__tittle 
 {
     font-family: 'Lora';
     font-style: normal;
@@ -220,7 +253,7 @@
     line-height: 1.31;
 }
 
-.Most-Recent__block-subtittle
+.most-recent__subtittle
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -230,7 +263,17 @@
     color: #7A7A7A;
 }
 
-.Most-Recent__block-name 
+.most-recent-info
+{
+
+}
+
+.most-recent-info__author-img
+{
+
+}
+
+.most-recent-info__author-name 
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -240,7 +283,7 @@
     color: #999999;
 }
 
-.Most-Recent__block-date
+.most-recent-info__author-date
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -250,7 +293,7 @@
     color: #999999;
 }
 
-.footer__background
+.basement
 {
     background: url("Pictures/Footer.png");
     max-width: 1440px;
@@ -259,19 +302,32 @@
     background-repeat: no-repeat;
 }
 
-.footer__menu 
+.basement__escape
+{
+    position: absolute;
+    font-family: 'Lora';
+    padding-top: 1%;
+    margin: 0% 10% 0%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.basement-menu 
 {
     word-spacing: 20px;
 }
 
-.footer__menu_link 
+.basement-menu__link 
 {
     opacity: 0.6;
     text-decoration: none;
     color: white;
 }
 
-.footer__menu_link:hover 
+.basement-menu__link:hover 
 {
     color: #DD783F;
 }
