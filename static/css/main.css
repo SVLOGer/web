@@ -1,0 +1,166 @@
+.body
+{
+    max-width: 1440px;
+    height: 800px;
+    width: 100%;
+    background-size: 100%;
+    background: url("../static/img/Admin.png");
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-top: 333px;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    width: 232px;   
+    height: 46px;
+    margin-bottom: 16px;
+}
+
+.title__big
+{
+    color: white;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45.5px;
+    line-height: 46px;
+    margin: 0;
+}
+
+.title__small
+{
+    color: white;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.5px;
+    line-height: 31px;
+    margin: 0;
+}
+
+.subtitle
+{
+    color: white;
+    margin: 0;
+}
+
+.login
+{
+    background: white;
+    width: 480px;
+    height: 560px;
+    margin-top: 120px;
+    margin-left: 368px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__title
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    color: black;
+    margin-top: 56px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.login__form
+{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__email
+{
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7A7A7A;
+}
+
+.form__field
+{
+    margin-right: 40px;
+    border-left: white;
+    border-top: white;
+    border-right: white;
+    border-bottom: 1px solid #2E2E2E;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 40px;
+    height: 40px;
+    background: white;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 4px;
+    color: #2E2E2E;
+}
+
+.form__field:focus
+{
+    background: #F7F7F7;
+    outline: none;
+}
+
+.form__password
+{
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7A7A7A;
+}
+
+.form__button
+{
+    width: 93px;
+    height: 48px;
+    background: #DD783F;
+    border-radius: 3px;
+    border-left: #DD783F;
+    border-right: #DD783F;
+    border-bottom: #DD783F;
+    border-top: #DD783F;
+    color: white;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form__img
+{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 368px;
+    margin-top: 135px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Road Ahead</title>
+    <link href="/static/css/style2.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="heading">
+        <span class="heading__escape">Escape.</span>
+        <nav class="heading-menu">
+            <a href=# class="heading-menu__link">HOME</a>
+            <a href=# class="heading-menu__link">CATEGORIES</a>
+            <a href=# class="heading-menu__link">ABOUT</a>
+            <a href=# class="heading-menu__link">CONTACT</a>
+        </nav>
+    </header>
+    <div class="logo">
+        <h1 class="logo__title">{{ .Title }}</h1>
+        <h2 class="logo__subtitle">{{ .Subtitle }}</h2>
+    </div>
+    <img src="{{ .Image }}" class="post-img" alt="{{ .Title }}" />
+    <article class="post">
+        <p class="post__paragraph">
+            {{ .Content }}
+        </p>
+    </article>
+    <footer class="basement">
+        <form class="basement-form">
+          <h2 class="basement-form__heading">Stay in Touch</h2>
+          <input class="basement-form__input-field" type="text" placeholder="Enter your email address">
+          <input class="basement-form__button" type="submit" value="Submit">
+        </form>
+        <div class="basement-menu">
+          <span class="basement-menu__escape">Escape.</span>
+          <nav class="basement-nav">
+            <a class="basement-nav__ref" href="#">HOME</a>
+            <a class="basement-nav__ref" href="#">CATEGORIES</a>
+            <a class="basement-nav__ref" href="#">ABOUT</a>
+            <a class="basement-nav__ref" href="#">CONTACT</a>
+          </nav>
+        </div>
+      </footer>
+</body>
+
+</html>

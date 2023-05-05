@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <link href="static/css/admin.css" rel="stylesheet">
+        <title>Escape admin</title>
+    </head>
+    <body class="body">
+        <header class="header">
+            <div class="logo">  
+                <h1 class="logo__big">Escape.</h1>
+                <h2 class="logo__small">author</h2>
+            </div>
+            <div class="header__menu">
+                <a href="#">
+                    <img src="../static/img/User.png" />
+                </a>
+                <a href="#">
+                    <img src="../static/img/Log_out.png" />
+                </a>
+            </div>   
+        </header>
+        <form class="form">
+            <div class="form__head">
+                <div class="head__description">
+                    <h1 class="description__title">New Post</h1>
+                    <p class="description__subtitle">Fill out the form bellow and publish your article</p>
+                </div>
+                <input id="button" class="head__button" type="button" value="Publish" />
+            </div>
+            <div class="form__field1">
+                <h2 class="field1__title">Main information</h2>
+                <p class="field1__name">Title</p>
+                <input id="title" class="field1__placeholder" type="text" placeholder="New Post">
+                <p class="field1__name">Short description</p>
+                <input id="shortdescription" class="field1__placeholder" type="text" placeholder="Please, enter any description">
+                <p class="field1__name">Author name</p>
+                <input id="authorname" class="field1__placeholder" type="text" placeholder="">
+                <p class="field1__name">Author photo</p>
+                <div class="field1__author-upload">
+                    <label for="author">
+                        <img src="../static/img/Photo_author.png"> 
+                    </label>
+                    <input id="author" type="file"/>
+                    <label for="author">Upload</label>
+                </div>
+                <p class="field1__name">Publish Date</p>
+                <input class="field1__placeholder" type="date" placeholder="">
+                <p class="field1__name">Hero Image</p>
+                <div class="field1__hero-upload">
+                    <label for="author">
+                        <img src="../static/img/Hero_Image.png"> 
+                    </label>
+                    <input id="author" type="file" />
+                </div>
+                <p class="field1__comment">Size up to 10mb. Format: png, jpeg, gif.</p>
+                <div class="field1__hero-upload">
+                    <label for="author">
+                        <img src="../static/img/Hero_Image2.png"> 
+                    </label>
+                    <input id="author" type="file" />
+                </div>
+                <p class="field1__lastcomment">Size up to 5mb. Format: png, jpeg, gif.</p>
+            </div>
+            <div class="form__field2">
+                <h2 class="field2__title">Content</h2>
+                <p class="field2__name">Post content (plain text)</p>
+                <textarea placeholder="Type anything you want ..." class="field2__text"></textarea>
+            </div>    
+        </form>
+    </body>
+    <script src="static/js/script.js"></script>
+</html>

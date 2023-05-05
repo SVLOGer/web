@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>    
+    <meta charset="UTF-8">
+    <title>Web</title>
+    <link href="static/css/style.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="head">
+        <header class="heading">
+            <span class="heading__escape">Escape.</span>
+            <nav class="heading-menu">
+                <a href=# class="heading-menu__link">HOME</a>
+                <a href=# class="heading-menu__link">CATEGORIES</a>
+                <a href=# class="heading-menu__link">ABOUT</a>
+                <a href=# class="heading-menu__link">CONTACT</a>
+            </nav>
+        </header>
+        <div class="head__description">
+            <h1 class="description__title">Let's do it together.</h1>
+            <h2 class="description__subtitle">We travel the world in search of stories. Come along for the ride.</h2>
+            <button class="description__button">View Lattest Posts</button>
+        </div>
+    </div>
+    <div class="menu">
+        <a href=# class="menu__link">Nature</a>
+        <a href=# class="menu__link">Photography</a>
+        <a href=# class="menu__link">Relaxation</a>
+        <a href=# class="menu__link">Vacation</a>
+        <a href=# class="menu__link">Travel</a>
+        <a href=# class="menu__link">Adventure</a>
+    </div>
+    <section class="featured-posts">
+        <h2 class="featured-posts__heading">Featured Posts</h2>
+        <div class="featured-posts__posts">
+            {{ range .FeaturedPosts }}
+            <div class="featured-post {{ .ImgModifier }}">
+                <h3 class="featured-post__title"><a class="featured-post__title_link" href="/post/{{ .PostID }}">{{ .Title }}</a></h3>
+                <h4 class="featured-post__subtitle">{{ .Subtitle }}</h4>
+                <div class="featured-post-info">
+                    <div class="featured-post-info-person">
+                        <img src="{{ .AuthorImg }}" class="featured-posts-info-person__author-img" alt="{{ .Alt }}" />
+                        <span class="featured-post-info-person__author-name">{{ .Author }}</span>
+                    </div>
+                    <span class="featured-post-info__author-date">{{ .PublishDate }}</span>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+    <section class="most-recent-posts">
+        <h2 class="most-recent-posts__heading">Most Recent</h2>
+        <div class="most-recent-posts__posts">
+            {{ range .MostRecentPosts }}
+            <div class="most-recent-post">
+                <img src="{{ .Image }}" class="most-recent-post__img" alt="{{ .Alt }}" />
+                <h3 class="most-recent-post__title"><a class="most-recent-post__title_link" href="/post/{{ .PostID }}">{{ .Title }}</a></h3>
+                <h4 class="most-recent-post__subtitle">{{ .Subtitle }}</h4>
+                <div class="most-recent-post-info">
+                    <div class="most-recent-post-info-person">
+                        <img src="{{ .AuthorImg }}" class="most-recent-post-info-person__author-img" alt="{{ .AuthorAlt }}" />
+                        <span class="most-recent-post-info-person__author-name">{{ .Author }}</span>
+                    </div>
+                    <span class="most-recent-post-info__author-date">{{ .PublishDate }}</span>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+    <footer class="basement">
+        <form class="basement-form">
+          <h2 class="basement-form__heading">Stay in Touch</h2>
+          <input class="basement-form__input-field" type="text" placeholder="Enter your email address">
+          <input class="basement-form__button" type="submit" value="Submit">
+        </form>
+        <div class="basement-menu">
+          <span class="basement-menu__escape">Escape.</span>
+          <nav class="basement-nav">
+            <a class="basement-nav__ref" href="#">HOME</a>
+            <a class="basement-nav__ref" href="#">CATEGORIES</a>
+            <a class="basement-nav__ref" href="#">ABOUT</a>
+            <a class="basement-nav__ref" href="#">CONTACT</a>
+          </nav>
+        </div>
+      </footer>
+</body>
+
+</html>

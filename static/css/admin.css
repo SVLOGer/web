@@ -1,0 +1,264 @@
+.body
+{
+    background: #F7F7F7;
+    margin: 0;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.header
+{
+    background: #2E2E2E;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.logo
+{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.logo__big
+{
+    color: white;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.7174px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.logo__small
+{
+    color: white;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.8478px;
+    line-height: 17px;
+    margin: 0;
+}
+
+.header__menu
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form
+{
+    background:#F7F7F7;
+    margin-left: 130px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__head
+{
+    background: #F7F7F7;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head__description
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.description__title
+{
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;   
+    color: black;
+}
+
+.description__subtitle
+{
+    margin: 0;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2E2E2E;
+    opacity: 63%;
+}
+
+.head__button
+{
+    background: #DD783F;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    width: 100px;
+    height: 48px;
+    border-radius: 3px;
+    border-left: #DD783F;
+    border-right: #DD783F;
+    border-top: #DD783F;
+    border-bottom: #DD783F;
+}
+
+.form__field1
+{
+    padding-left: 40px;
+    padding-top: 40px;
+    background: white;
+}
+
+.field1__title
+{
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+}
+
+.field1__name
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7A7A7A;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.field1__placeholder
+{
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 4px;
+    border-left: white;
+    border-top: white;
+    border-right: white;
+    border-bottom: 1px solid #2E2E2E;
+    border-radius: 5px 5px 0px 0px;
+    height: 40px;
+    background: white;
+    width: 560px;
+}
+
+.field1__placeholder:focus
+{
+    background: #F7F7F7;
+    outline: none;
+}
+
+.field1__author-upload
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
+.field1__author-upload>input 
+{
+    display: none;
+}
+
+.field1__comment
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    margin: 0;  
+    margin-bottom: 40px;  
+}
+
+.field1__hero-upload
+{
+    margin-bottom: 12px;
+}
+
+.field1__hero-upload>input 
+{
+    display: none;
+}
+
+.field1__lastcomment
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    margin: 0;  
+    padding-bottom: 56px;
+}
+
+.form__field2
+{
+    margin-top: 16px;
+    background: white;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.field2__title
+{
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px; 
+}
+
+.field2__name
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7A7A7A;
+    margin: 0;
+    margin-bottom: 5px;    
+}
+
+.field2__text
+{
+    width: 940px;
+    height: 160px;
+    padding-left: 4px;
+}
