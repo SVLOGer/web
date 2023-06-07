@@ -1,14 +1,11 @@
 .body
 {
-    max-width: 1440px;
-    height: 800px;
-    width: 100%;
-    background-size: 100%;
-    background: url("../static/img/Admin.png");
+    background: url("/static/img/Admin.png");
     margin: 0;
     display: flex;
     flex-direction: row;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .logo
@@ -100,7 +97,7 @@
     color: #7A7A7A;
 }
 
-.form__field
+.form__field-email
 {
     margin-right: 40px;
     border-left: white;
@@ -110,7 +107,7 @@
     border-radius: 5px 5px 0px 0px;
     margin-bottom: 40px;
     height: 40px;
-    background: white;
+    background: #F7F7F7;
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -118,11 +115,13 @@
     line-height: 24px;
     padding-left: 4px;
     color: #2E2E2E;
+    width: 400px;
+    height: 40px;
 }
 
-.form__field:focus
+.form__field-email:focus
 {
-    background: #F7F7F7;
+    background: #FFFFFF;
     outline: none;
 }
 
@@ -136,6 +135,55 @@
     font-size: 12px;
     line-height: 16px;
     color: #7A7A7A;
+}
+
+.form__field-password
+{
+    border-left: white;
+    border-top: white;
+    border-right: white;
+    border-bottom: 1px solid #2E2E2E;
+    border-radius: 5px 5px 0px 0px;
+    height: 40px;
+    background: #F7F7F7;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 4px;
+    color: #2E2E2E;
+    width: 400px;
+    height: 40px;
+    position: absolute;
+}
+
+.form__field-password:focus
+{
+    background: #FFFFFF;
+    outline: none;
+}
+
+.form__password-input
+{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.password-input_show
+{
+    position: absolute;
+    margin-left: 373px;
+    margin-top: 12px;
+}
+
+.password-input_hide
+{
+    position: absolute;
+    margin-left: 373px;
+    margin-top: 12px;
 }
 
 .form__button
@@ -154,13 +202,4 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-}
-
-.form__img
-{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    margin-left: 368px;
-    margin-top: 135px;
 }

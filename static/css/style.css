@@ -325,6 +325,8 @@
 .most-recent-post__img
 {
     background: #F7F7F7;
+    height: 150px;
+    width: 296px;
 }
 
 .most-recent-post__title 
@@ -364,9 +366,9 @@
     background: #FCFCFC;
     display: flex;
     flex-direction: row;
-    margin-top: 0px;
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-bottom: 0px;
+    padding-left: 13px;
+    padding-right: 13px;
     height: 26px;
     justify-content: space-between;
     padding-top: 12px;
@@ -384,6 +386,8 @@
 .most-recent-post-info-person__author-img
 {
     border-radius: 50%;
+    width: 26px;
+    height: 26px;
 }
 
 .most-recent-post-info-person__author-name 

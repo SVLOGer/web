@@ -2,8 +2,7 @@
 <html lang="en">    
     <head>
         <meta charset="UTF-8">
-        <link href="script.js">
-        <link href="static/css/main.css" rel="stylesheet">
+        <link href="/static/css/login.css" rel="stylesheet">
         <title>Escape admin</title>
     </head>
     <body class="body">
@@ -18,14 +17,16 @@
             <h1 class="login__title">Log in</h1>
             <form class="login__form">
                 <p class="form__email">Email</p>
-                <input class="form__field" type="email" placeholder="">
+                <input class="form__field-email" type="email" placeholder="">
                 <p class="form__password">Password</p>
-                <input class="form__field" type="text" placeholder="">
-                <a href="#"  class="form__img">
-                    <img src="../static/img/eye.png"></img>
-                </a>    
+                <div class="form__password-input">
+                    <input class="form__field-password" type="password" placeholder="">
+                    <img id="show" class="password-input_show" src="/static/img/eye.png"></img>
+                    <img id="hide" class="password-input_hide" src="/static/img/eye-off.png"></img>
+                </div>   
                 <input class="form__button" type="submit" value="Log in">
             </form>
         </div>
     </body>
+    <script src="/static/js/login.js"></script>
 </html>    

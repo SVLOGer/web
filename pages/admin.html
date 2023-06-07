@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <link href="/static/css/admin.css" rel="stylesheet">
+        <title>Escape admin</title>
+    </head>
+    <body>
+        <div class="heading">
+          <span class="heading__title">Escape.</span>
+          <span class="heading__sign">author</span>
+        </div>
+        <div class="creating-posts">
+          <div class="creating-posts-intro">
+            <div class="introduction">
+              <span class="introduction__title">New Post</span>  
+              <span class="introduction__subtitle">Fill out the form bellow and publish your article</span>  
+            </div>
+            <input type="submit" class="publish-button" value="Publish" />
+          </div>
+          <div class="creating-post">
+            <div class="creating-post-form">
+              <span class="creating-post-form__title">Main Information</span>
+              <div class="input-title">
+                <span class="input-title__title">Title</span>
+                <input class="input-title__note" id="title" type="text" placeholder="New Post" required maxlength="15">
+              </div>
+              <div class="input-subtitle">
+                <span class="input-subtitle__title">Short description</span>
+                <input class="input-subtitle__note" id="subtitle" type="text" placeholder="Please, enter any description" required maxlength="60">
+              </div>
+              <div class="input-author-name">
+                <span class="input-author-name__title">Author name</span>
+                <input class="input-author-name__note" id="authorName" type="text" required maxlength="15">
+              </div>
+              <div class="input-author-photo">
+                <span class="input-author-photo__title">Author photo</span>
+                <div class="author-photo-form">
+                  <label for="photoAuthor">
+                    <img class="preview-author-photo" src="/static/img/author0.png" />
+                  </label>
+                  <label for="photoAuthor" class="author-photo-form__upload-button">             
+                    <img src="/static/img/Upload.png" class="upload-button__icon"/>
+                    <span id="uploadAuthorPhotoButton">Upload</span>
+                  </label>
+                  <input type="file" id="photoAuthor" name="photoAuthor" accept=".jpg, .jpeg, .png" class="author-photo-form__input">
+                  <button id="removePhotoAuthor" name="removePhotoAuthor" class="author-photo-form__remove-button">
+                    <img src="/static/img/Remove.png"/>               
+                    <span>Remove</span>
+                  </button>
+                </div>
+              </div>
+              <div class="input-publish-date">
+                <span class="input-publish-date__title">Publish Date</span>
+                <input class="input-publish-date__note" id="date" type="date" required pattern="\d{4}-\d{2}-\d{2}"/>
+              </div>
+              <div class="input-hero-image">
+                <span class="input-hero-image__title">Hero Image</span>
+                <label class="upload-place" for="photoPost">
+                  <img src="/static/img/postphoto0.png" class="upload-place__img" />
+                </label>
+                <input type="file" id="photoPost" name="photoPost" accept=".jpg, .jpeg, .png" class="input-hero-image__input">
+                <span class="input-hero-image__sign">Size up to 10mb. Format: png, jpeg, jpg.</span>
+                <div class="img-buttons">
+                  <label for="photoPost" class="upload-hero">
+                    <img src="/static/img/Upload.png"/>    
+                    <span class="upload-hero__button">Upload New</span>
+                  </label>
+                  <button id="removePostIMG" name="removePostIMG" class="remove-hero">
+                    <img src="/static/img/Remove.png"/> 
+                    <span class="upload-hero__button">Remove</span>
+                  </button>
+                </div>
+              </div>
+              <div class="input-hero-image-tiny">
+                <span class="input-hero-image-tiny__title">Hero Image</span>
+                <label for="photoPostTiny" class="upload-place-tiny">
+                  <img src="/static/img/postphototiny0.png" class="upload-place-tiny__img" />
+                </label>
+                <input type="file" id="photoPostTiny" name="photoPostTiny" accept=".jpg, .jpeg, .png" class="input-hero-image-tiny__input">
+                <span class="input-hero-image-tiny__sign">Size up to 5mb. Format: png, jpeg, jpg.</span>
+                <div class="tiny-img-buttons">
+                  <label for="photoPostTiny" class="upload-hero">
+                    <img src="/static/img/Upload.png"/>   
+                    <span class="upload-hero__button">Upload New</span>
+                  </label>
+                  <button id="removeTinyPostIMG" name="removeTinyPostIMG" class="remove-hero">
+                    <img src="/static/img/Remove.png"/>
+                    <span class="upload-hero__button">Remove</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="creating-post-visual">
+              <div class="article-preview">
+                <span class="article-preview__title">Article preview</span>
+                <div class="article-preview-post">
+                  <div class="article-preview-post-description">
+                    <div class="ellipses">
+                      <div class="ellipse"></div><div class="ellipse"></div><div class="ellipse"></div>
+                    </div>
+                    <span class="article-preview-post-visual__title"  id="titleVisual">New Post</span>
+                    <span class="article-preview-post-visual__subtitle" id="subtitleVisual">Please, enter any description</span>
+                    <img class="article-preview-post-visual__photo" id="article-preview-post-visual__photo" />
+                  </div>
+                </div>
+                <div class="gorizontal-gradient-article-visual"></div>
+                <div class="vertical-gradient-article-visual"></div>
+              </div>
+              <div class="post-card-preview">
+                <span class="post-card-preview__title">Post card preview</span>
+                <div class="post-card-preview-visual">
+                  <div class="post-card">
+                    <img class="post-card__photo" />
+                    <span class="post-card__title" id="titleVisualTiny">New Post</span>
+                    <span class="post-card__subtitle" id="subtitleVisualTiny">Please, enter any description</span>
+                    <div class="post-card-info">
+                      <img class="post-card-info__photo" src="/static/img/author0.png" />
+                      <span class="post-card-info__author" id="authorNameVisualTiny">Enter author name</span>
+                      <span class="post-card-info__date" id="dateVisuality">01/05/2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="gorizontal-gradient-post-car-visual"></div>
+                <div class="vertical-gradient-post-card-visual"></div>
+              </div>
+            </div>
+          </div>
+          <div class="post-article">
+            <span class="post-article__title">Content</span>
+            <div class="upload-post-article">
+              <span class="upload-post-article__title">Post content (plain text)</span>
+              <textarea id="contentPost" type="text" class="upload-post-article__input" placeholder="Type anything you want ..."></textarea>
+            </div>
+          </div>
+        </div>
+    </body>
+    <script src="/static/js/script.js"></script>
+</html>
